@@ -5,7 +5,7 @@ var charSet = "abcdefghijklmnopqrstuvwxyz"
 var password = ""
 // Math.floor(charSet.length * Math.random()) Random index location logic
 
-for (i = 0; i < passLen; i++) {
+for (i = 0; i < passLen; i++) { //for loop that adds random characters from the charset variable to a string called password.
   var randIndexLoc = Math.floor(charSet.length * Math.random())
   var character = charSet.slice(randIndexLoc, randIndexLoc + 1)
   password = password.concat(character)

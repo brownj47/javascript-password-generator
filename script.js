@@ -1,9 +1,28 @@
 
 var passLen = prompt("How long do you want your password to be?") //Defines how long the password should be
 console.log(passLen)
-var charSet = "abcdefghijklmnopqrstuvwxyz"
+var charSet = ""
+var lowercase = "abcdefghijklmnopqrstuvwxyz"
+var uppercase = lowercase.toUpperCase()
+var specialChar = "!#$%&'()*+,-./:;<=>?@[/]^_`{|}~"
+var numChar = "1234567890"
 var password = ""
 // Math.floor(charSet.length * Math.random()) Random index location logic
+
+if (confirm("If you would like to include lowercase letters, press OK")) { //add lowercase letters to charSet
+  charSet = charSet.concat(lowercase)
+}
+if (confirm("If you would like to include uppercase letters, press OK")) { // add uppercase letters to charSet
+  charSet = charSet.concat(uppercase)
+}
+if (confirm("If you would like to include special characters, press OK")) { // add special characters to charSet
+  charSet = charSet.concat(specialChar)
+}
+if (confirm("If you would like to include numbers, press OK")) { // add numbers characters to charSet
+  charSet = charSet.concat(numChar)
+}
+
+console.log(charSet)
 
 for (i = 0; i < passLen; i++) { //for loop that adds random characters from the charset variable to a string called password.
   var randIndexLoc = Math.floor(charSet.length * Math.random())
@@ -11,6 +30,8 @@ for (i = 0; i < passLen; i++) { //for loop that adds random characters from the 
   password = password.concat(character)
 }
 console.log(password)
+
+
 
 // Assignment Code
 var generateBtn = document.querySelector("#generate");

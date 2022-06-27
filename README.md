@@ -1,10 +1,17 @@
 # 03 JavaScript: Password Generator
 
-## Your Task
+In this Challenge, I took created a javascript password generator using dialog boxes. All of the lines in the js file after line 53, as well as the html and CSS were provided by my instructors at "© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved." They provided the framework, and I created the logic. 
 
-This week's Challenge requires you to modify starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished, responsive user interface that adapts to multiple screen sizes.
+Over the course of the exercise, I learned about dialog boxes, the alert(), confirm(), prompt(), and Math() functions, as well as creating recursive functions. I needed to make my app more robust so that it would not allow a user to run the code in sucha way that no password was generated. They could have done this by never selecting a character set, or setting the password to no length. 
 
-The password can include special characters. If you’re unfamiliar with these, see this [list of password special characters](https://www.owasp.org/index.php/Password_special_characters) from the OWASP Foundation.
+Linked here is the deployed project: https://brownj47.github.io/javascript-password-generator/
+
+I received my list of special characters from, [list of password special characters](https://www.owasp.org/index.php/Password_special_characters) the OWASP Foundation.
+
+![ScreenShot of the deployed app](./screenshot-deployed-app.png)
+
+
+From here on is the rubric I was graded on for my project: 
 
 ## User Story
 

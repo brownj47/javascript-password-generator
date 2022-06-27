@@ -28,7 +28,7 @@ function gatherInfo(){ // gathers info, except for password length, adds charact
 
 function askLength() { // Send an alert message saying you need to enter a character number, restart function
   var passLen = (prompt("How long do you want your password to be? It must be between 8 and 128 characters."))
-  if (passLen < 8 || passLen > 128){
+  if (passLen < 8 || passLen > 128 || isNaN(passLen)){
     alert("Your password must be between 8 and 128 characters. Please enter a number between those two values.")
     passLen = askLength()
   }

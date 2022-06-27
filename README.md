@@ -2,7 +2,7 @@
 
 In this Challenge, I took created a javascript password generator using dialog boxes. All of the lines in the js file after line 53, as well as the html and CSS were provided by my instructors at "© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved." They provided the framework, and I created the logic. 
 
-Over the course of the exercise, I learned about dialog boxes, the alert(), confirm(), prompt(), and Math() functions, as well as creating recursive functions. I needed to make my app more robust so that it would not allow a user to run the code in sucha way that no password was generated. They could have done this by never selecting a character set, or setting the password to no length. 
+Over the course of the exercise, I learned about dialog boxes, the alert(), confirm(), prompt(), and Math() functions, as well as creating recursive functions. I needed to make my app more robust so that it would not allow a user to run the code in such a way that no password was generated. They could have done this by never selecting a character set, or setting the password to no length. 
 
 Linked here is the deployed project: https://brownj47.github.io/javascript-password-generator/
 
